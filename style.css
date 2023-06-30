@@ -1,0 +1,159 @@
+
+
+@font-face {
+    font-family: "Helve";
+    src: url("../Fon/HelveticaNeueLt.ttf");
+}
+
+.topbar{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 24px;
+    width: 100%;
+    background-color:#262624;
+    z-index: 2;
+}
+
+
+
+body{
+    margin: 0px;
+}
+
+.background {
+    background-color: #1f1d16;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    display: flex; 
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.topSide {
+    background-color: #786B3D;
+    height: 274px;
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    margin-top: 40px;
+    width: 1170px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title p{
+    font-family: Roboto;
+    line-height: 1.1;
+ 
+}
+
+.title p:first-child{
+    font-size: 32px;
+    color: #ece9e4;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.title p:last-child{
+    color:#D8D4D0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.signIn{
+    height: 25.14px;
+    width: 52.7px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #908149;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #ECE9E4;
+}
+
+.signIn:hover{
+    background-color: #786B3D;
+    cursor: pointer;
+}
+
+.search{
+    width: 18px;
+    height: 18px;
+    background-color: #908149;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.Spellblade{
+    width: 1170px;
+    height: 5158px;
+    /* display: flex; */
+    position: fixed;
+    color: #000;
+    z-index: 1;
+}
+
+.content-wrap{
+    background-color: #1f1d16;
+}
+
+.row{
+    background-color: #121212;
+}
+
+span{
+    color: #dfdfdf;
+}
+
+td{
+    color: #dfdfdf;
+}
+
+em{
+    color: #dfdfdf;
+}
+
+p{
+    color: #dfdfdf;
+}
+
+li{
+    color: #dfdfdf;
+}
+
+/* th{
+    width: 36px;
+} */
+
+.toptable th{
+    width: 20px;
+}
+
+td{
+    border-top: 1px solid #616161;
+}
+
